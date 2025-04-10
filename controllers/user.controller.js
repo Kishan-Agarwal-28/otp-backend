@@ -48,10 +48,10 @@ else{
             existingUser.lastRequestedAt=Date.now();
             existingUser.verificationToken=verificationToken;   
             existingUser.verificationTokenExpiryDate=verificationTokenExpiryDate;
-            // await sendEmail(existingUser.email, "verify", {
-            //     username: existingUser.username,
-            //     token: existingUser.verificationToken
-            // });
+            await sendEmail(existingUser.email, "verify", {
+                username: existingUser.username,
+                token: existingUser.verificationToken
+            });
             await existingUser.save({validateBeforeSave:false});
             const logginedUser=await User.findById(existingUser._id).select("-password -refreshToken");
         if(!logginedUser){
