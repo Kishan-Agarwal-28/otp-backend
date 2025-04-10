@@ -17,7 +17,6 @@ CLick here 👉 [Visit the website the check the live demo of the project ](http
 
 - Node.js
 - MongoDB
-- Redis (optional)
 - Resend API key for email service
 
 ## Environment Variables
