@@ -23,7 +23,7 @@ if([username,email,password].some((field)=>field?.trim()===""))
 {
     throw new apiError(400,"All fields are required")
 }
-else if(password===email||password===username){
+ if(password===email||password===username){
     throw new apiError(400,"Password should not be same as username or email")
 }
 else{
