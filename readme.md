@@ -3,7 +3,7 @@
 A robust Node.js authentication system with email verification, rate limiting, and token-based authentication.
 
 ## Website Url
-CLick here 👉 [Visit the website the check the lime demo of the project ](https://www.authbackend.work.gd) or copy and paste  the link in the browser https://www.authbackend.work.gd
+CLick here 👉 [Visit the website the check the live demo of the project ](https://www.authbackend.work.gd) or copy and paste  the link in the browser https://www.authbackend.work.gd
 ## Features
 
 - User registration with email verification
